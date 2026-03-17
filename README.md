@@ -1,62 +1,29 @@
-# FunctionScript
-
 🧠 FunctionScript
+<h3 align="center" style="color:#7c3aed;">A Lightweight Browser-Based Scripting Language</h3> <p align="center"> Build UI, interactions, and mini apps — instantly ⚡ </p>
+<p align="center"> <a href="https://virajratnakar-dev.github.io/my_first_code/"> <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-00c853?style=for-the-badge"> </a> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"> <img src="https://img.shields.io/badge/Made%20With-JavaScript-yellow?style=for-the-badge&logo=javascript"> <img src="https://img.shields.io/badge/UI-Glassmorphism-7c3aed?style=for-the-badge"> <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge"> </p>
+🌐 Live Playground
 
-A lightweight browser-based scripting language for building UI, interactions, and mini apps — instantly. 
-
-👉 Try it here:
+👉 Try FunctionScript in your browser
 🔗 https://virajratnakar-dev.github.io/my_first_code/
 
 ⚡ What is FunctionScript?
 
-FunctionScript is a mini scripting language that runs in the browser.
+FunctionScript is a mini scripting language that runs entirely in the browser.
 
-You write simple function-like commands:
+Instead of writing HTML + JS, you write:
 
 button(Click me, notify(Hello))
 text(Welcome to my app)
 
-And it instantly generates a working UI.
+✨ And it instantly creates a working UI.
 
-No frameworks. No setup. Just type and run.
-
-🚀 Features
-🧾 Simple Syntax
-
-Function-based commands
-
-No complex setup
-
-Easy to learn
-
-🎨 UI Generation
-
-Buttons, text, inputs
-
-Cards, layouts, colors
-
-Dynamic rendering
-
-🧠 Built-in Logic
-
-Lists & state
-
-Random values
-
-Timers & repetition
-
-🎮 Game Engine (Built-in!)
-enable(game)
-startGame()
-attack()
-⚡ Live Execution
-
-Instant output
-
-No page reload
-
-Real-time console logs
-
+🚀 Features Overview
+Feature	Description
+🧾 Simple Syntax	Function-based commands, easy to learn
+🎨 UI Generation	Buttons, inputs, cards, layouts
+🧠 Built-in Logic	Lists, randomness, timers
+🎮 Game Engine	Built-in mini RPG system
+⚡ Live Execution	No reload, instant output
 🧪 Example Code
 🔹 Basic UI
 title(My App)
@@ -72,73 +39,99 @@ typewriter(This is cool!)
 🔹 Pokémon Generator
 summonPokemon()
 list(pokemon_log)
+🎮 Game Engine (Built-in)
+
+Enable the game system:
+
+enable(game)
+startGame()
+attack()
+Game Features
+Feature	Description
+⚔️ Combat	Attack enemies
+❤️ Health System	Player & enemy HP
+📜 Logs	Real-time game log
+🎯 Score	Track progress
 📖 Core Commands
-Category	Commands
-Text	text, title, subtitle, bold, italic
-Layout	row, col, card, box
-Input	button, input
-Media	img, color
-Logic	repeat, random, timestamp
-Effects	rainbow, emoji, typewriter, shake
-System	copy, paste, fullscreen
-Lists	list, addTask, count
-Game	enable(game), startGame, attack, heal
+🧾 Text & Formatting
+Command	Example
+text	text(Hello)
+title	title(My App)
+bold	bold(Important)
+italic	italic(Text)
+🎨 UI & Layout
+Command	Example
+button	button(Click me, notify(Hi))
+input	input(Add task, addTask())
+card	card(Title, Description)
+row	row(text(A), text(B))
+col	col(text(A), text(B))
+⚙️ Logic & Utilities
+Command	Example
+random	random(1,10)
+repeat	repeat(3, emoji())
+timestamp	timestamp()
+🎉 Effects
+Command	Example
+rainbow	rainbow(Text)
+emoji	emoji()
+typewriter	typewriter(Hello)
+shake	shake(Wow)
+📋 Lists & Data
+Command	Example
+list	list(tasks)
+addTask	addTask(Buy milk)
+count	count(tasks)
+🖥️ System
+Command	Example
+copy	copy(text)
+paste	paste()
+fullscreen	fullscreen()
 ⌨️ Controls
 Key	Action
-Ctrl + J	Run script
+Ctrl + J	Run script (Windows/Linux)
 Cmd + J	Run script (Mac)
 🏗️ How It Works
-
-Parses each line as a function call
-
-Converts commands → DOM elements
-
-Maintains state using:
-
-FP_LISTS
-
-FP_FEATURES
-
-FP_SIMPLE_GAME
-
+Internal State
+Variable	Purpose
+FP_LISTS	Stores dynamic lists
+FP_FEATURES	Feature toggles
+FP_SIMPLE_GAME	Game engine state
 📂 Project Structure
 📁 FunctionScript
  ├── index.html   # Full engine (HTML + CSS + JS)
  └── README.md
 ⚠️ Limitations
 
-No advanced parser (nested functions limited)
+❌ No advanced parser (limited nesting)
 
-No sandboxing (runs in browser context)
+❌ No sandboxing (runs in browser)
 
-Basic error handling
+❌ Basic error handling
 
-Not a full programming language (yet 😉)
+⚠️ Still evolving language
 
 🌱 Roadmap
 
- Proper parser (nested expressions)
+ Advanced parser (nested functions)
 
- Script saving/loading
+ Save/load scripts
 
- Syntax highlighting
+ Syntax highlighting editor
 
  Plugin system
 
  Custom user functions
 
- Multiplayer/shared playground
+ Multiplayer playground
 
 🤝 Contributing
 
 Want to improve FunctionScript?
 
-Fork the repo
-
-Add features
-
-Submit a PR 🚀
-
+1. Fork the repo
+2. Make changes
+3. Submit a PR 🚀
 📜 License
 
 MIT License
@@ -147,14 +140,21 @@ MIT License
 
 Viraj Ratnakar
 
-💥 Idea Behind This
+💡 Idea Behind This
 
-What if HTML + JS could be replaced with something like:
+Instead of writing:
+
+<button onclick="window.open('https://google.com')">Open</button>
+
+You write:
 
 button(Open Google, open(https://google.com))
 
-That’s FunctionScript.
+✨ Simpler. Faster. More fun.
 
-⭐ If you like this project
+⭐ Support
 
-Give it a star ⭐ — it helps a lot!
+If you like this project:
+
+⭐ Star this repo
+🚀 Share it with others
