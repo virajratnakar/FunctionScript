@@ -1,7 +1,7 @@
 🧠 FunctionScript
 <h3 align="center" style="color:#7c3aed;">A Lightweight Browser-Based Scripting Language</h3> <p align="center"> Build UI, interactions, and mini apps — instantly ⚡ </p>
 <p align="center"> <a href="https://virajratnakar.github.io/FunctionScript/"> 
- <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-00c853?style=for-the-badge"> </a> <img src="https://img.shields.io/badge/🚀%20Instructions%20-Click%20Here-00c853?style=for-the-badge"> </a> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"> <img src="https://img.shields.io/badge/Made%20With-JavaScript-yellow?style=for-the-badge&logo=javascript"> <img src="https://img.shields.io/badge/UI-Glassmorphism-7c3aed?style=for-the-badge"> <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge"> </p>
+ <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-00c853?style=for-the-badge"> </a> <a href=""> <img src="https://img.shields.io/badge/🚀%20Instructions%20-Click%20Here-00c853?style=for-the-badge"> </a> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"> <img src="https://img.shields.io/badge/Made%20With-JavaScript-yellow?style=for-the-badge&logo=javascript"> <img src="https://img.shields.io/badge/UI-Glassmorphism-7c3aed?style=for-the-badge"> <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge"> </p>
 🌐 Live Playground
 
 👉 Try FunctionScript in your browser
